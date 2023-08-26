@@ -6,6 +6,9 @@ These are some public userscripts for the website www.bgp.tools written in JS fo
 # Install
 Install the Tampermonkey extension for your browser and create a new script. The copy paste the source of whichever script(s) you'd like to install into the code area and hit save. The script should automatically start working after saving.
 
+# Tampermonkey CSP
+On the latest Chrome version as of now (116.0.5845.111), tampermonkey's edit CSP function doesn't seem to work so you will have to disable the CSP if you want to use scripts such as PeeringDB.
+
 # Overview of our scripts
 
 ## ixp-peering-capacity.js
